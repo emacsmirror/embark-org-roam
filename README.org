@@ -78,8 +78,7 @@ Just browse MELPA packages using, for instance, =M-x package-list-packages=, and
 
 #+begin_src elisp
 (use-package embark-org-roam
-   :ensure t
-   :elpaca (embark-org-roam
+   :ensure (embark-org-roam
             :type git
             :host github
             :repo "bramadams/embark-org-roam")
